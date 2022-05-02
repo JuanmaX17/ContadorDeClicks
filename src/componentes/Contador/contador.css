@@ -1,0 +1,16 @@
+.contador{
+    display: grid;
+    place-items: center;
+    min-width: 400px;
+    height: 300px;
+    border: 10px double white;
+  
+    margin-bottom: 50px;
+}
+
+
+.contador__numero{
+    text-shadow: -1px 1px 6px aqua;
+    color: wheat;
+    font-size: 10rem;
+}

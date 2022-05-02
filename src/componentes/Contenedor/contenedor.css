@@ -1,0 +1,15 @@
+.contenedor{
+
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+
+}
+
+.contenedor__componentes{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 5px;
+    
+}

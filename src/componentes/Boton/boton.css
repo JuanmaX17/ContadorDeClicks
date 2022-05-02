@@ -1,0 +1,24 @@
+#boton__general{
+
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 14px;
+    font-size: 1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    color: wheat;
+    cursor: pointer;
+
+}
+
+#boton__general:hover{
+    background-color: green;
+
+}
+
+.boton__clicks{
+    background-color: blueviolet;
+}
+.boton__reiniciar{
+    background-color: rgb(10, 104, 220);
+}

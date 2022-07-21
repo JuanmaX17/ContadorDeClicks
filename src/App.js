@@ -19,7 +19,7 @@ function App() {
 
   return (
      <React.Fragment>
-      <h2>essssss</h2>
+      <h2>esssssss</h2>
       <Number />
       <Contenedor>
         <Logo />

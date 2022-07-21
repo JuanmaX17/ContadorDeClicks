@@ -6,6 +6,7 @@ import {Contador} from "./componentes/Contador/index.Contador"
 import {Boton} from "./componentes/Boton/index.Boton"
 import {useState} from "react"
 import { Number } from "./componentes/Number/index.number";
+import { Letra } from "./componentes/Letra/index.letra";
 function App() {
 
   const [numeroDeClick,setNumeroDeClick] = useState(0)
@@ -20,6 +21,7 @@ function App() {
   return (
      <React.Fragment>
 
+      <Letra />
       <h2>noooooo</h2>
       <Number />
       <Contenedor>

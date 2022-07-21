@@ -5,6 +5,7 @@ import {Contenedor} from "./componentes/Contenedor/index.contenedor"
 import {Contador} from "./componentes/Contador/index.Contador"
 import {Boton} from "./componentes/Boton/index.Boton"
 import {useState} from "react"
+import { Number } from "./componentes/Number/index.number";
 function App() {
 
   const [numeroDeClick,setNumeroDeClick] = useState(0)
@@ -19,6 +20,7 @@ function App() {
   return (
      <React.Fragment>
 
+      <Number />
       <Contenedor>
         <Logo />
 

@@ -3,6 +3,6 @@ import "./number.css"
 
 export function Number() {
   return (
-    <div className='number'>Numero 170001</div>
+    <div className='number'>Numero 100000</div>
   )
 }
